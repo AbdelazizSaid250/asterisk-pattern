@@ -1,6 +1,6 @@
 public class Patterns {
 
-    private static Patterns patterns;
+    /*private static Patterns patterns;
 
     private Patterns() {
     }
@@ -10,11 +10,11 @@ public class Patterns {
             patterns = new Patterns();
         }
         return patterns;
-    }
+    }*/
 
-    void hierarchicalPattern(int number) {
+    void pyramidPattern(long number) {
         for (int i = 1; i <= number; i++) {
-            for (int j = number; j > i; j--) {
+            for (long j = number; j > i; j--) {
                 System.out.print(" ");
             }
             for (int k = 1; k <= (i * 2) - 1; k++) {
